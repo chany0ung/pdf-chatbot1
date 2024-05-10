@@ -1,6 +1,6 @@
 __import__('pysqlite3')
 import sys
-sys.modeules['sqlite3'] = sys.modules.pop('pysqlite3')
+sys.modules['sqlite3'] = sys.modules.pop('pysqlite3')
 
 from langchain_community.document_loaders import PyPDFLoader
 from langchain_openai import ChatOpenAI
