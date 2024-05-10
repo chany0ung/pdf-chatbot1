@@ -2,6 +2,6 @@
 langchain
 langchain_openai
 pypdf
-chromadb
+chroma
 tiktoken
 pysqlite3-binary
