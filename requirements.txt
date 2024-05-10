@@ -1,6 +1,6 @@
 
 langchain
-openai
+open_ai
 pypdf
 chromadb
 tiktoken
